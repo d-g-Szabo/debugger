@@ -14,6 +14,7 @@ countToTen();
 function countToHundred() {
   for (let index = 0; index < 100; index++) {
     // Breakpoint will be here on chrome at 50 iterations
+    // right click on the line number and select "edit breakpoint" here you can add a condition like index === 50
     let message = index + 1;
     console.log(message);
   }
